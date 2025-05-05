@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { PlusIcon, FolderIcon, XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://prep-bot-backend.onrender.com';
 
 function Sidebar({ showSidebar, setShowSidebar }) {
   const [documents, setDocuments] = useState([]);

@@ -5,7 +5,7 @@ import axios from 'axios';
 import { PaperAirplaneIcon } from '@heroicons/react/24/solid';
 import ChatMessage from './ChatMessage';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://prep-bot-backend.onrender.com';
 
 function ChatInterface() {
   const [messages, setMessages] = useState([]);
