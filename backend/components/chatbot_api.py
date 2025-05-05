@@ -28,8 +28,10 @@ app.add_middleware(
 )
 
 # Configuration
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PRESIST_DIR = os.path.join(BASE_DIR, "../artifacts/chroma_db")
 DOCUMENTS_DIR = "documents"
-PRESIST_DIR = "/Users/mayankgupta/Desktop/Project/ExamBot/backend/artifacts/chroma_db"
+# PRESIST_DIR = "/Users/mayankgupta/Desktop/Project/ExamBot/backend/artifacts/chroma_db"
 os.makedirs(DOCUMENTS_DIR, exist_ok=True)
 
 
