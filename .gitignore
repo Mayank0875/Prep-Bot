@@ -1,0 +1,32 @@
+# === Node.js (frontend React) ===
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/.next/
+frontend/.turbo/
+frontend/dist/
+frontend/package-lock.json
+frontend/yarn.lock
+
+# === Python (backend FastAPI, Flask, etc) ===
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/env/
+backend/venv/
+backend/.env
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.DS_Store
+backend/data/*
+backend/data/
+data/
+
+# === OS/System files ===
+.DS_Store
+Thumbs.db
+.env
+
+# === VS Code settings ===
+.vscode/

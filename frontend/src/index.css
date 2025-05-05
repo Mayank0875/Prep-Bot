@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Add to index.css or tailwind.config.js to ensure prose styling works */
+.prose pre {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+  overflow-x: auto;
+}
+
+.prose code {
+  color: #e2e8f0;
+  font-weight: 400;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a202c; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a5568; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096; 
+}
